@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', 'sans-serif;';
+}
+
+.hero{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #000;
+	background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	color: #fff;
+	padding: 0 8%;
+}
+
+h1{
+	padding-top: 15%;
+	font-size: 60px;
+}
+
+h1:hover{
+	color: aqua;
+	font-size: 60px;
+}
+
+h3{
+	margin-top: 10px;
+}
+
+img{
+	max-width: 100%;
+	width: 60px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+#info{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.if1{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin-top: 10px;
+}
+
+a{
+	display: inline-block;
+	margin-top: 21px;
+	margin-left: 21px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: aqua;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 550px){
+	.hero{
+		min-height: 100vh;
+		width: 100%;
+		background-color: #000;
+		background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: 70%;
+		color: #fff;
+		padding: 0 8%;
+	}
+    h1{
+		padding-top: 15%;
+		font-size: 40px;
+		color: whitesmoke;
+	}
+
+	h1:hover{
+		color: aqua;
+		font-size: 40px;
+	}
+}
